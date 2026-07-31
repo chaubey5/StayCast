@@ -1,0 +1,42 @@
+{% load static %}
+<header class="site-header" :class="{ sticky: stickyHeader }">
+    <div class="container header-inner">
+        <a href="{% url 'home' %}" class="brand">
+            <span class="brand-mark">MS</span>
+            <span class="brand-text">MedSummarize Pro</span>
+        </a>
+        <nav class="nav-links" role="navigation" aria-label="Main navigation" x-show="!mobileMenuOpen || window.innerWidth > 960">
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'about' %}">About</a>
+            <a href="{% url 'features' %}">Features</a>
+            <a href="/api/docs/">API Docs</a>
+            <a href="{% url 'prediction' %}">Prediction</a>
+            <a href="{% url 'dashboard' %}">Dashboard</a>
+            <a href="{% url 'contact' %}">Contact</a>
+        </nav>
+        <div class="header-actions">
+            {% if user.is_authenticated %}
+                <a class="btn btn-secondary" href="{% url 'profile' %}"><i class="fa-solid fa-user"></i> Profile</a>
+                <a class="btn btn-ghost" href="{% url 'logout' %}"><i class="fa-solid fa-right-from-bracket"></i> Logout</a>
+            {% else %}
+                <a class="btn btn-secondary" href="{% url 'login' %}"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+                <a class="btn btn-primary" href="{% url 'register' %}"><i class="fa-solid fa-user-plus"></i> Register</a>
+            {% endif %}
+            <button class="icon-btn" @click="toggleTheme()" aria-label="Toggle dark mode">
+                <span x-text="darkMode ? '🌙' : '☀️'"></span>
+            </button>
+            <button class="icon-btn mobile-menu" @click="mobileMenuOpen = !mobileMenuOpen" aria-label="Mobile menu" :aria-expanded="mobileMenuOpen">
+                <span x-show="!mobileMenuOpen">☰</span>
+                <span x-show="mobileMenuOpen">✕</span>
+            </button>
+        </div>
+    </div>
+    <div class="mobile-nav" role="navigation" aria-label="Mobile navigation" x-show="mobileMenuOpen" x-cloak>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'about' %}">About</a>
+        <a href="{% url 'features' %}">Features</a>
+        <a href="{% url 'prediction' %}">Prediction</a>
+        <a href="{% url 'dashboard' %}">Dashboard</a>
+        <a href="{% url 'contact' %}">Contact</a>
+    </div>
+</header>

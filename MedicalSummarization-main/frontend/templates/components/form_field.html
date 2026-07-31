@@ -1,0 +1,8 @@
+<div class="form-row{% if extra_classes %} {{ extra_classes }}{% endif %}" role="group">
+    <label id="{{ id }}-label" for="{{ id }}">{{ label }}</label>
+    {% if type == 'textarea' %}
+        <textarea id="{{ id }}" name="{{ name }}" rows="{{ rows|default:'4' }}" placeholder="{{ placeholder|default:'' }}" aria-labelledby="{{ id }}-label"{% if required %} aria-required="true" required{% else %} aria-required="false"{% endif %}>{{ value|default:'' }}</textarea>
+    {% else %}
+        <input id="{{ id }}" name="{{ name }}" type="{{ type|default:'text' }}" value="{{ value|default:'' }}" placeholder="{{ placeholder|default:'' }}" aria-labelledby="{{ id }}-label"{% if required %} aria-required="true" required{% else %} aria-required="false"{% endif %} />
+    {% endif %}
+</div>
