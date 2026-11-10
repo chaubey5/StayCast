@@ -1,0 +1,15 @@
+flowchart TB
+  A["Origin t (end of day), horizon h = 1..14, category c"] --> B["Known at t only"]
+  B --> B1["Realised demand for nights <= t<br/>lags 0-6, rolling 7/14/28, trend"]
+  B --> B2["On-the-books at t for night t+h<br/>booked <= t and not cancelled by t"]
+  B --> B3["Calendar of t+h: weekday, month, season, PT holiday"]
+  B --> B4["Arrivals <= t: cancel rate, mean lead time"]
+  B1 --> C["ColumnTransformer<br/>numeric + one-hot categoricals"]
+  B2 --> C
+  B3 --> C
+  B4 --> C
+  C --> D["Regressor<br/>HistGradientBoosting (selected on validation)"]
+  D --> E["Clip at 0"]
+  E --> F["+ residual quantiles<br/>(validation, per horizon group x category)"]
+  F --> G["Prediction + 90% interval + sanity warnings"]
+  H["Naive seasonal baseline<br/>same weekday, latest observed week"] -.compared on identical rows.-> G

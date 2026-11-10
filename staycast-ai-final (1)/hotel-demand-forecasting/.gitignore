@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Raw data is re-downloadable (see README); keep the folder, not the file
+data/raw/*.csv
+data/processed/*
+!data/processed/.gitkeep
+
+# Frontend
+node_modules/
+dist/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

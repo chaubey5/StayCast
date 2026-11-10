@@ -1,0 +1,61 @@
+{
+  "rows": 119390,
+  "columns": 32,
+  "arrival_date_min": "2015-07-01",
+  "arrival_date_max": "2017-08-31",
+  "distinct_arrival_days": 793,
+  "calendar_days_in_span": 793,
+  "hotels": {
+    "City Hotel": 79330,
+    "Resort Hotel": 40060
+  },
+  "cancellation_rate": 0.3704,
+  "reservation_status": {
+    "Check-Out": 75166,
+    "Canceled": 43017,
+    "No-Show": 1207
+  },
+  "exact_duplicate_rows": 31994,
+  "empty_cell_counts": {
+    "children": 4
+  },
+  "literal_NULL_string_counts": {
+    "agent": 16340,
+    "company": 112593,
+    "country": 488
+  },
+  "reserved_room_types": {
+    "A": 85994,
+    "D": 19201,
+    "E": 6535,
+    "F": 2897,
+    "G": 2094,
+    "B": 1118,
+    "C": 932,
+    "H": 601,
+    "P": 12,
+    "L": 6
+  },
+  "assigned_room_types": {
+    "A": 74053,
+    "D": 25322,
+    "E": 7806,
+    "F": 3751,
+    "G": 2553,
+    "C": 2375,
+    "B": 2163,
+    "H": 712,
+    "I": 363,
+    "K": 279,
+    "P": 12,
+    "L": 1
+  },
+  "reserved_ne_assigned_share": 0.1249,
+  "zero_night_stays": 715,
+  "max_nights": 69,
+  "zero_guest_rows": 180,
+  "adr_negative": 1,
+  "adr_zero": 1959,
+  "adr_max": 5400.0,
+  "lead_time_max": 737
+}

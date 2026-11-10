@@ -1,0 +1,1634 @@
+{
+  "baseline": {
+    "description": "Demand on the same weekday of the latest fully observed week (d - 7*ceil(h/7))",
+    "validation": {
+      "overall_1_14d": {
+        "MAE": 9.181,
+        "RMSE": 15.392,
+        "WAPE": 0.1898,
+        "n": 9324
+      },
+      "horizon_1_7d": {
+        "MAE": 8.751,
+        "RMSE": 14.648,
+        "WAPE": 0.1809,
+        "n": 4662
+      },
+      "by_horizon": {
+        "1": {
+          "MAE": 8.751,
+          "RMSE": 14.648,
+          "WAPE": 0.1809,
+          "n": 666
+        },
+        "2": {
+          "MAE": 8.751,
+          "RMSE": 14.648,
+          "WAPE": 0.1809,
+          "n": 666
+        },
+        "3": {
+          "MAE": 8.751,
+          "RMSE": 14.648,
+          "WAPE": 0.1809,
+          "n": 666
+        },
+        "4": {
+          "MAE": 8.751,
+          "RMSE": 14.648,
+          "WAPE": 0.1809,
+          "n": 666
+        },
+        "5": {
+          "MAE": 8.751,
+          "RMSE": 14.648,
+          "WAPE": 0.1809,
+          "n": 666
+        },
+        "6": {
+          "MAE": 8.751,
+          "RMSE": 14.648,
+          "WAPE": 0.1809,
+          "n": 666
+        },
+        "7": {
+          "MAE": 8.751,
+          "RMSE": 14.648,
+          "WAPE": 0.1809,
+          "n": 666
+        },
+        "8": {
+          "MAE": 9.611,
+          "RMSE": 16.102,
+          "WAPE": 0.1987,
+          "n": 666
+        },
+        "9": {
+          "MAE": 9.611,
+          "RMSE": 16.102,
+          "WAPE": 0.1987,
+          "n": 666
+        },
+        "10": {
+          "MAE": 9.611,
+          "RMSE": 16.102,
+          "WAPE": 0.1987,
+          "n": 666
+        },
+        "11": {
+          "MAE": 9.611,
+          "RMSE": 16.102,
+          "WAPE": 0.1987,
+          "n": 666
+        },
+        "12": {
+          "MAE": 9.611,
+          "RMSE": 16.102,
+          "WAPE": 0.1987,
+          "n": 666
+        },
+        "13": {
+          "MAE": 9.611,
+          "RMSE": 16.102,
+          "WAPE": 0.1987,
+          "n": 666
+        },
+        "14": {
+          "MAE": 9.611,
+          "RMSE": 16.102,
+          "WAPE": 0.1987,
+          "n": 666
+        }
+      },
+      "by_category": {
+        "A": {
+          "MAE": 25.356,
+          "RMSE": 31.789,
+          "WAPE": 0.1409,
+          "n": 1554
+        },
+        "D": {
+          "MAE": 11.932,
+          "RMSE": 16.197,
+          "WAPE": 0.1893,
+          "n": 1554
+        },
+        "E": {
+          "MAE": 7.545,
+          "RMSE": 9.331,
+          "WAPE": 0.2725,
+          "n": 1554
+        },
+        "F": {
+          "MAE": 3.838,
+          "RMSE": 4.754,
+          "WAPE": 0.4281,
+          "n": 1554
+        },
+        "G": {
+          "MAE": 2.829,
+          "RMSE": 3.579,
+          "WAPE": 0.4551,
+          "n": 1554
+        },
+        "Other": {
+          "MAE": 3.586,
+          "RMSE": 5.11,
+          "WAPE": 0.8008,
+          "n": 1554
+        }
+      }
+    },
+    "test": {
+      "overall_1_14d": {
+        "MAE": 6.31,
+        "RMSE": 11.625,
+        "WAPE": 0.1067,
+        "n": 9408
+      },
+      "horizon_1_7d": {
+        "MAE": 6.147,
+        "RMSE": 11.528,
+        "WAPE": 0.104,
+        "n": 4704
+      },
+      "by_horizon": {
+        "1": {
+          "MAE": 6.147,
+          "RMSE": 11.528,
+          "WAPE": 0.104,
+          "n": 672
+        },
+        "2": {
+          "MAE": 6.147,
+          "RMSE": 11.528,
+          "WAPE": 0.104,
+          "n": 672
+        },
+        "3": {
+          "MAE": 6.147,
+          "RMSE": 11.528,
+          "WAPE": 0.104,
+          "n": 672
+        },
+        "4": {
+          "MAE": 6.147,
+          "RMSE": 11.528,
+          "WAPE": 0.104,
+          "n": 672
+        },
+        "5": {
+          "MAE": 6.147,
+          "RMSE": 11.528,
+          "WAPE": 0.104,
+          "n": 672
+        },
+        "6": {
+          "MAE": 6.147,
+          "RMSE": 11.528,
+          "WAPE": 0.104,
+          "n": 672
+        },
+        "7": {
+          "MAE": 6.147,
+          "RMSE": 11.528,
+          "WAPE": 0.104,
+          "n": 672
+        },
+        "8": {
+          "MAE": 6.473,
+          "RMSE": 11.722,
+          "WAPE": 0.1095,
+          "n": 672
+        },
+        "9": {
+          "MAE": 6.473,
+          "RMSE": 11.722,
+          "WAPE": 0.1095,
+          "n": 672
+        },
+        "10": {
+          "MAE": 6.473,
+          "RMSE": 11.722,
+          "WAPE": 0.1095,
+          "n": 672
+        },
+        "11": {
+          "MAE": 6.473,
+          "RMSE": 11.722,
+          "WAPE": 0.1095,
+          "n": 672
+        },
+        "12": {
+          "MAE": 6.473,
+          "RMSE": 11.722,
+          "WAPE": 0.1095,
+          "n": 672
+        },
+        "13": {
+          "MAE": 6.473,
+          "RMSE": 11.722,
+          "WAPE": 0.1095,
+          "n": 672
+        },
+        "14": {
+          "MAE": 6.473,
+          "RMSE": 11.722,
+          "WAPE": 0.1095,
+          "n": 672
+        }
+      },
+      "by_category": {
+        "A": {
+          "MAE": 19.446,
+          "RMSE": 25.95,
+          "WAPE": 0.102,
+          "n": 1568
+        },
+        "D": {
+          "MAE": 6.987,
+          "RMSE": 8.836,
+          "WAPE": 0.0753,
+          "n": 1568
+        },
+        "E": {
+          "MAE": 3.799,
+          "RMSE": 5.189,
+          "WAPE": 0.1062,
+          "n": 1568
+        },
+        "F": {
+          "MAE": 2.263,
+          "RMSE": 2.987,
+          "WAPE": 0.1655,
+          "n": 1568
+        },
+        "G": {
+          "MAE": 2.094,
+          "RMSE": 2.744,
+          "WAPE": 0.2266,
+          "n": 1568
+        },
+        "Other": {
+          "MAE": 3.272,
+          "RMSE": 4.001,
+          "WAPE": 0.2605,
+          "n": 1568
+        }
+      }
+    }
+  },
+  "models": {
+    "Linear Regression": {
+      "config": {
+        "params": {},
+        "residual_target": false
+      },
+      "validation": {
+        "overall_1_14d": {
+          "MAE": 3.136,
+          "RMSE": 5.566,
+          "WAPE": 0.0648,
+          "n": 9324
+        },
+        "horizon_1_7d": {
+          "MAE": 2.323,
+          "RMSE": 3.765,
+          "WAPE": 0.048,
+          "n": 4662
+        },
+        "by_horizon": {
+          "1": {
+            "MAE": 1.985,
+            "RMSE": 3.201,
+            "WAPE": 0.041,
+            "n": 666
+          },
+          "2": {
+            "MAE": 2.045,
+            "RMSE": 3.222,
+            "WAPE": 0.0423,
+            "n": 666
+          },
+          "3": {
+            "MAE": 2.151,
+            "RMSE": 3.457,
+            "WAPE": 0.0445,
+            "n": 666
+          },
+          "4": {
+            "MAE": 2.269,
+            "RMSE": 3.653,
+            "WAPE": 0.0469,
+            "n": 666
+          },
+          "5": {
+            "MAE": 2.397,
+            "RMSE": 3.851,
+            "WAPE": 0.0495,
+            "n": 666
+          },
+          "6": {
+            "MAE": 2.626,
+            "RMSE": 4.23,
+            "WAPE": 0.0543,
+            "n": 666
+          },
+          "7": {
+            "MAE": 2.785,
+            "RMSE": 4.539,
+            "WAPE": 0.0576,
+            "n": 666
+          },
+          "8": {
+            "MAE": 3.126,
+            "RMSE": 5.538,
+            "WAPE": 0.0646,
+            "n": 666
+          },
+          "9": {
+            "MAE": 3.471,
+            "RMSE": 6.191,
+            "WAPE": 0.0718,
+            "n": 666
+          },
+          "10": {
+            "MAE": 3.766,
+            "RMSE": 6.626,
+            "WAPE": 0.0778,
+            "n": 666
+          },
+          "11": {
+            "MAE": 4.022,
+            "RMSE": 6.949,
+            "WAPE": 0.0831,
+            "n": 666
+          },
+          "12": {
+            "MAE": 4.237,
+            "RMSE": 7.303,
+            "WAPE": 0.0876,
+            "n": 666
+          },
+          "13": {
+            "MAE": 4.424,
+            "RMSE": 7.58,
+            "WAPE": 0.0914,
+            "n": 666
+          },
+          "14": {
+            "MAE": 4.598,
+            "RMSE": 7.904,
+            "WAPE": 0.095,
+            "n": 666
+          }
+        },
+        "by_category": {
+          "A": {
+            "MAE": 9.14,
+            "RMSE": 12.154,
+            "WAPE": 0.0508,
+            "n": 1554
+          },
+          "D": {
+            "MAE": 3.188,
+            "RMSE": 4.588,
+            "WAPE": 0.0506,
+            "n": 1554
+          },
+          "E": {
+            "MAE": 1.942,
+            "RMSE": 2.449,
+            "WAPE": 0.0701,
+            "n": 1554
+          },
+          "F": {
+            "MAE": 1.417,
+            "RMSE": 1.821,
+            "WAPE": 0.1581,
+            "n": 1554
+          },
+          "G": {
+            "MAE": 1.515,
+            "RMSE": 1.91,
+            "WAPE": 0.2437,
+            "n": 1554
+          },
+          "Other": {
+            "MAE": 1.614,
+            "RMSE": 2.03,
+            "WAPE": 0.3604,
+            "n": 1554
+          }
+        }
+      },
+      "test": {
+        "overall_1_14d": {
+          "MAE": 2.359,
+          "RMSE": 3.799,
+          "WAPE": 0.0399,
+          "n": 9408
+        },
+        "horizon_1_7d": {
+          "MAE": 2.075,
+          "RMSE": 3.332,
+          "WAPE": 0.0351,
+          "n": 4704
+        },
+        "by_horizon": {
+          "1": {
+            "MAE": 2.054,
+            "RMSE": 3.045,
+            "WAPE": 0.0347,
+            "n": 672
+          },
+          "2": {
+            "MAE": 1.991,
+            "RMSE": 3.077,
+            "WAPE": 0.0337,
+            "n": 672
+          },
+          "3": {
+            "MAE": 2.02,
+            "RMSE": 3.208,
+            "WAPE": 0.0342,
+            "n": 672
+          },
+          "4": {
+            "MAE": 2.045,
+            "RMSE": 3.35,
+            "WAPE": 0.0346,
+            "n": 672
+          },
+          "5": {
+            "MAE": 2.092,
+            "RMSE": 3.459,
+            "WAPE": 0.0354,
+            "n": 672
+          },
+          "6": {
+            "MAE": 2.132,
+            "RMSE": 3.529,
+            "WAPE": 0.0361,
+            "n": 672
+          },
+          "7": {
+            "MAE": 2.193,
+            "RMSE": 3.614,
+            "WAPE": 0.0371,
+            "n": 672
+          },
+          "8": {
+            "MAE": 2.304,
+            "RMSE": 3.877,
+            "WAPE": 0.039,
+            "n": 672
+          },
+          "9": {
+            "MAE": 2.441,
+            "RMSE": 4.05,
+            "WAPE": 0.0413,
+            "n": 672
+          },
+          "10": {
+            "MAE": 2.506,
+            "RMSE": 4.081,
+            "WAPE": 0.0424,
+            "n": 672
+          },
+          "11": {
+            "MAE": 2.64,
+            "RMSE": 4.21,
+            "WAPE": 0.0447,
+            "n": 672
+          },
+          "12": {
+            "MAE": 2.754,
+            "RMSE": 4.336,
+            "WAPE": 0.0466,
+            "n": 672
+          },
+          "13": {
+            "MAE": 2.854,
+            "RMSE": 4.385,
+            "WAPE": 0.0483,
+            "n": 672
+          },
+          "14": {
+            "MAE": 3.0,
+            "RMSE": 4.525,
+            "WAPE": 0.0507,
+            "n": 672
+          }
+        },
+        "by_category": {
+          "A": {
+            "MAE": 6.464,
+            "RMSE": 7.884,
+            "WAPE": 0.0339,
+            "n": 1568
+          },
+          "D": {
+            "MAE": 3.025,
+            "RMSE": 3.921,
+            "WAPE": 0.0326,
+            "n": 1568
+          },
+          "E": {
+            "MAE": 1.403,
+            "RMSE": 1.796,
+            "WAPE": 0.0392,
+            "n": 1568
+          },
+          "F": {
+            "MAE": 1.033,
+            "RMSE": 1.319,
+            "WAPE": 0.0755,
+            "n": 1568
+          },
+          "G": {
+            "MAE": 1.078,
+            "RMSE": 1.354,
+            "WAPE": 0.1167,
+            "n": 1568
+          },
+          "Other": {
+            "MAE": 1.151,
+            "RMSE": 1.506,
+            "WAPE": 0.0916,
+            "n": 1568
+          }
+        }
+      }
+    },
+    "Random Forest": {
+      "config": {
+        "params": {
+          "n_estimators": 200,
+          "min_samples_leaf": 5,
+          "max_features": 0.5
+        },
+        "residual_target": false
+      },
+      "validation": {
+        "overall_1_14d": {
+          "MAE": 2.769,
+          "RMSE": 5.706,
+          "WAPE": 0.0572,
+          "n": 9324
+        },
+        "horizon_1_7d": {
+          "MAE": 2.087,
+          "RMSE": 4.013,
+          "WAPE": 0.0431,
+          "n": 4662
+        },
+        "by_horizon": {
+          "1": {
+            "MAE": 1.545,
+            "RMSE": 2.606,
+            "WAPE": 0.0319,
+            "n": 666
+          },
+          "2": {
+            "MAE": 1.669,
+            "RMSE": 2.941,
+            "WAPE": 0.0345,
+            "n": 666
+          },
+          "3": {
+            "MAE": 1.929,
+            "RMSE": 3.615,
+            "WAPE": 0.0399,
+            "n": 666
+          },
+          "4": {
+            "MAE": 2.127,
+            "RMSE": 4.106,
+            "WAPE": 0.044,
+            "n": 666
+          },
+          "5": {
+            "MAE": 2.285,
+            "RMSE": 4.378,
+            "WAPE": 0.0472,
+            "n": 666
+          },
+          "6": {
+            "MAE": 2.452,
+            "RMSE": 4.702,
+            "WAPE": 0.0507,
+            "n": 666
+          },
+          "7": {
+            "MAE": 2.6,
+            "RMSE": 5.109,
+            "WAPE": 0.0538,
+            "n": 666
+          },
+          "8": {
+            "MAE": 2.795,
+            "RMSE": 5.69,
+            "WAPE": 0.0578,
+            "n": 666
+          },
+          "9": {
+            "MAE": 3.014,
+            "RMSE": 6.211,
+            "WAPE": 0.0623,
+            "n": 666
+          },
+          "10": {
+            "MAE": 3.27,
+            "RMSE": 6.658,
+            "WAPE": 0.0676,
+            "n": 666
+          },
+          "11": {
+            "MAE": 3.495,
+            "RMSE": 6.992,
+            "WAPE": 0.0722,
+            "n": 666
+          },
+          "12": {
+            "MAE": 3.704,
+            "RMSE": 7.387,
+            "WAPE": 0.0766,
+            "n": 666
+          },
+          "13": {
+            "MAE": 3.871,
+            "RMSE": 7.744,
+            "WAPE": 0.08,
+            "n": 666
+          },
+          "14": {
+            "MAE": 4.012,
+            "RMSE": 8.027,
+            "WAPE": 0.0829,
+            "n": 666
+          }
+        },
+        "by_category": {
+          "A": {
+            "MAE": 9.373,
+            "RMSE": 12.808,
+            "WAPE": 0.0521,
+            "n": 1554
+          },
+          "D": {
+            "MAE": 3.053,
+            "RMSE": 4.819,
+            "WAPE": 0.0484,
+            "n": 1554
+          },
+          "E": {
+            "MAE": 1.517,
+            "RMSE": 1.962,
+            "WAPE": 0.0548,
+            "n": 1554
+          },
+          "F": {
+            "MAE": 0.965,
+            "RMSE": 1.215,
+            "WAPE": 0.1076,
+            "n": 1554
+          },
+          "G": {
+            "MAE": 0.858,
+            "RMSE": 1.149,
+            "WAPE": 0.1381,
+            "n": 1554
+          },
+          "Other": {
+            "MAE": 0.848,
+            "RMSE": 1.212,
+            "WAPE": 0.1895,
+            "n": 1554
+          }
+        }
+      },
+      "test": {
+        "overall_1_14d": {
+          "MAE": 1.892,
+          "RMSE": 3.363,
+          "WAPE": 0.032,
+          "n": 9408
+        },
+        "horizon_1_7d": {
+          "MAE": 1.56,
+          "RMSE": 2.707,
+          "WAPE": 0.0264,
+          "n": 4704
+        },
+        "by_horizon": {
+          "1": {
+            "MAE": 1.29,
+            "RMSE": 2.275,
+            "WAPE": 0.0218,
+            "n": 672
+          },
+          "2": {
+            "MAE": 1.311,
+            "RMSE": 2.243,
+            "WAPE": 0.0222,
+            "n": 672
+          },
+          "3": {
+            "MAE": 1.443,
+            "RMSE": 2.453,
+            "WAPE": 0.0244,
+            "n": 672
+          },
+          "4": {
+            "MAE": 1.527,
+            "RMSE": 2.609,
+            "WAPE": 0.0258,
+            "n": 672
+          },
+          "5": {
+            "MAE": 1.686,
+            "RMSE": 2.862,
+            "WAPE": 0.0285,
+            "n": 672
+          },
+          "6": {
+            "MAE": 1.785,
+            "RMSE": 3.054,
+            "WAPE": 0.0302,
+            "n": 672
+          },
+          "7": {
+            "MAE": 1.876,
+            "RMSE": 3.277,
+            "WAPE": 0.0317,
+            "n": 672
+          },
+          "8": {
+            "MAE": 1.98,
+            "RMSE": 3.5,
+            "WAPE": 0.0335,
+            "n": 672
+          },
+          "9": {
+            "MAE": 2.097,
+            "RMSE": 3.703,
+            "WAPE": 0.0355,
+            "n": 672
+          },
+          "10": {
+            "MAE": 2.123,
+            "RMSE": 3.716,
+            "WAPE": 0.0359,
+            "n": 672
+          },
+          "11": {
+            "MAE": 2.219,
+            "RMSE": 3.926,
+            "WAPE": 0.0375,
+            "n": 672
+          },
+          "12": {
+            "MAE": 2.291,
+            "RMSE": 4.025,
+            "WAPE": 0.0388,
+            "n": 672
+          },
+          "13": {
+            "MAE": 2.384,
+            "RMSE": 4.112,
+            "WAPE": 0.0403,
+            "n": 672
+          },
+          "14": {
+            "MAE": 2.48,
+            "RMSE": 4.326,
+            "WAPE": 0.0419,
+            "n": 672
+          }
+        },
+        "by_category": {
+          "A": {
+            "MAE": 5.432,
+            "RMSE": 7.198,
+            "WAPE": 0.0285,
+            "n": 1568
+          },
+          "D": {
+            "MAE": 2.382,
+            "RMSE": 3.202,
+            "WAPE": 0.0257,
+            "n": 1568
+          },
+          "E": {
+            "MAE": 1.277,
+            "RMSE": 1.667,
+            "WAPE": 0.0357,
+            "n": 1568
+          },
+          "F": {
+            "MAE": 0.704,
+            "RMSE": 0.972,
+            "WAPE": 0.0515,
+            "n": 1568
+          },
+          "G": {
+            "MAE": 0.736,
+            "RMSE": 0.932,
+            "WAPE": 0.0797,
+            "n": 1568
+          },
+          "Other": {
+            "MAE": 0.822,
+            "RMSE": 1.086,
+            "WAPE": 0.0655,
+            "n": 1568
+          }
+        }
+      }
+    },
+    "HistGradientBoosting": {
+      "config": {
+        "params": {
+          "learning_rate": 0.05,
+          "max_iter": 300,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 40,
+          "l2_regularization": 1.0
+        },
+        "residual_target": false
+      },
+      "validation": {
+        "overall_1_14d": {
+          "MAE": 2.574,
+          "RMSE": 5.219,
+          "WAPE": 0.0532,
+          "n": 9324
+        },
+        "horizon_1_7d": {
+          "MAE": 1.894,
+          "RMSE": 3.651,
+          "WAPE": 0.0392,
+          "n": 4662
+        },
+        "by_horizon": {
+          "1": {
+            "MAE": 1.119,
+            "RMSE": 1.982,
+            "WAPE": 0.0231,
+            "n": 666
+          },
+          "2": {
+            "MAE": 1.455,
+            "RMSE": 2.617,
+            "WAPE": 0.0301,
+            "n": 666
+          },
+          "3": {
+            "MAE": 1.8,
+            "RMSE": 3.353,
+            "WAPE": 0.0372,
+            "n": 666
+          },
+          "4": {
+            "MAE": 2.011,
+            "RMSE": 3.761,
+            "WAPE": 0.0416,
+            "n": 666
+          },
+          "5": {
+            "MAE": 2.104,
+            "RMSE": 3.942,
+            "WAPE": 0.0435,
+            "n": 666
+          },
+          "6": {
+            "MAE": 2.316,
+            "RMSE": 4.388,
+            "WAPE": 0.0479,
+            "n": 666
+          },
+          "7": {
+            "MAE": 2.456,
+            "RMSE": 4.73,
+            "WAPE": 0.0508,
+            "n": 666
+          },
+          "8": {
+            "MAE": 2.616,
+            "RMSE": 5.161,
+            "WAPE": 0.0541,
+            "n": 666
+          },
+          "9": {
+            "MAE": 2.816,
+            "RMSE": 5.564,
+            "WAPE": 0.0582,
+            "n": 666
+          },
+          "10": {
+            "MAE": 3.084,
+            "RMSE": 6.078,
+            "WAPE": 0.0638,
+            "n": 666
+          },
+          "11": {
+            "MAE": 3.33,
+            "RMSE": 6.466,
+            "WAPE": 0.0688,
+            "n": 666
+          },
+          "12": {
+            "MAE": 3.513,
+            "RMSE": 6.817,
+            "WAPE": 0.0726,
+            "n": 666
+          },
+          "13": {
+            "MAE": 3.665,
+            "RMSE": 7.18,
+            "WAPE": 0.0758,
+            "n": 666
+          },
+          "14": {
+            "MAE": 3.755,
+            "RMSE": 7.325,
+            "WAPE": 0.0776,
+            "n": 666
+          }
+        },
+        "by_category": {
+          "A": {
+            "MAE": 8.302,
+            "RMSE": 11.609,
+            "WAPE": 0.0461,
+            "n": 1554
+          },
+          "D": {
+            "MAE": 3.022,
+            "RMSE": 4.536,
+            "WAPE": 0.0479,
+            "n": 1554
+          },
+          "E": {
+            "MAE": 1.559,
+            "RMSE": 2.035,
+            "WAPE": 0.0563,
+            "n": 1554
+          },
+          "F": {
+            "MAE": 0.902,
+            "RMSE": 1.153,
+            "WAPE": 0.1007,
+            "n": 1554
+          },
+          "G": {
+            "MAE": 0.849,
+            "RMSE": 1.136,
+            "WAPE": 0.1365,
+            "n": 1554
+          },
+          "Other": {
+            "MAE": 0.812,
+            "RMSE": 1.152,
+            "WAPE": 0.1813,
+            "n": 1554
+          }
+        }
+      },
+      "test": {
+        "overall_1_14d": {
+          "MAE": 1.784,
+          "RMSE": 3.128,
+          "WAPE": 0.0302,
+          "n": 9408
+        },
+        "horizon_1_7d": {
+          "MAE": 1.411,
+          "RMSE": 2.443,
+          "WAPE": 0.0239,
+          "n": 4704
+        },
+        "by_horizon": {
+          "1": {
+            "MAE": 0.899,
+            "RMSE": 1.53,
+            "WAPE": 0.0152,
+            "n": 672
+          },
+          "2": {
+            "MAE": 1.134,
+            "RMSE": 1.889,
+            "WAPE": 0.0192,
+            "n": 672
+          },
+          "3": {
+            "MAE": 1.355,
+            "RMSE": 2.339,
+            "WAPE": 0.0229,
+            "n": 672
+          },
+          "4": {
+            "MAE": 1.468,
+            "RMSE": 2.536,
+            "WAPE": 0.0248,
+            "n": 672
+          },
+          "5": {
+            "MAE": 1.587,
+            "RMSE": 2.665,
+            "WAPE": 0.0268,
+            "n": 672
+          },
+          "6": {
+            "MAE": 1.659,
+            "RMSE": 2.788,
+            "WAPE": 0.0281,
+            "n": 672
+          },
+          "7": {
+            "MAE": 1.778,
+            "RMSE": 3.017,
+            "WAPE": 0.0301,
+            "n": 672
+          },
+          "8": {
+            "MAE": 1.908,
+            "RMSE": 3.286,
+            "WAPE": 0.0323,
+            "n": 672
+          },
+          "9": {
+            "MAE": 2.05,
+            "RMSE": 3.51,
+            "WAPE": 0.0347,
+            "n": 672
+          },
+          "10": {
+            "MAE": 2.093,
+            "RMSE": 3.559,
+            "WAPE": 0.0354,
+            "n": 672
+          },
+          "11": {
+            "MAE": 2.154,
+            "RMSE": 3.658,
+            "WAPE": 0.0364,
+            "n": 672
+          },
+          "12": {
+            "MAE": 2.222,
+            "RMSE": 3.811,
+            "WAPE": 0.0376,
+            "n": 672
+          },
+          "13": {
+            "MAE": 2.284,
+            "RMSE": 3.889,
+            "WAPE": 0.0386,
+            "n": 672
+          },
+          "14": {
+            "MAE": 2.387,
+            "RMSE": 4.051,
+            "WAPE": 0.0404,
+            "n": 672
+          }
+        },
+        "by_category": {
+          "A": {
+            "MAE": 4.881,
+            "RMSE": 6.479,
+            "WAPE": 0.0256,
+            "n": 1568
+          },
+          "D": {
+            "MAE": 2.412,
+            "RMSE": 3.361,
+            "WAPE": 0.026,
+            "n": 1568
+          },
+          "E": {
+            "MAE": 1.239,
+            "RMSE": 1.622,
+            "WAPE": 0.0347,
+            "n": 1568
+          },
+          "F": {
+            "MAE": 0.715,
+            "RMSE": 0.94,
+            "WAPE": 0.0523,
+            "n": 1568
+          },
+          "G": {
+            "MAE": 0.681,
+            "RMSE": 0.899,
+            "WAPE": 0.0737,
+            "n": 1568
+          },
+          "Other": {
+            "MAE": 0.776,
+            "RMSE": 1.058,
+            "WAPE": 0.0618,
+            "n": 1568
+          }
+        }
+      }
+    }
+  },
+  "ablation_without_on_the_books": {
+    "model": "HistGradientBoosting",
+    "note": "Same model/config trained WITHOUT the on-the-books (pickup) features: demand history + calendar only.",
+    "validation": {
+      "overall_1_14d": {
+        "MAE": 7.979,
+        "RMSE": 12.801,
+        "WAPE": 0.1649,
+        "n": 9324
+      },
+      "horizon_1_7d": {
+        "MAE": 7.288,
+        "RMSE": 11.906,
+        "WAPE": 0.1507,
+        "n": 4662
+      },
+      "by_horizon": {
+        "1": {
+          "MAE": 6.176,
+          "RMSE": 10.2,
+          "WAPE": 0.1277,
+          "n": 666
+        },
+        "2": {
+          "MAE": 6.596,
+          "RMSE": 10.901,
+          "WAPE": 0.1363,
+          "n": 666
+        },
+        "3": {
+          "MAE": 6.96,
+          "RMSE": 11.429,
+          "WAPE": 0.1439,
+          "n": 666
+        },
+        "4": {
+          "MAE": 7.311,
+          "RMSE": 11.917,
+          "WAPE": 0.1511,
+          "n": 666
+        },
+        "5": {
+          "MAE": 7.711,
+          "RMSE": 12.459,
+          "WAPE": 0.1594,
+          "n": 666
+        },
+        "6": {
+          "MAE": 8.032,
+          "RMSE": 12.966,
+          "WAPE": 0.166,
+          "n": 666
+        },
+        "7": {
+          "MAE": 8.231,
+          "RMSE": 13.166,
+          "WAPE": 0.1701,
+          "n": 666
+        },
+        "8": {
+          "MAE": 8.453,
+          "RMSE": 13.354,
+          "WAPE": 0.1747,
+          "n": 666
+        },
+        "9": {
+          "MAE": 8.612,
+          "RMSE": 13.499,
+          "WAPE": 0.178,
+          "n": 666
+        },
+        "10": {
+          "MAE": 8.591,
+          "RMSE": 13.479,
+          "WAPE": 0.1776,
+          "n": 666
+        },
+        "11": {
+          "MAE": 8.616,
+          "RMSE": 13.502,
+          "WAPE": 0.1781,
+          "n": 666
+        },
+        "12": {
+          "MAE": 8.68,
+          "RMSE": 13.662,
+          "WAPE": 0.1794,
+          "n": 666
+        },
+        "13": {
+          "MAE": 8.819,
+          "RMSE": 13.874,
+          "WAPE": 0.1823,
+          "n": 666
+        },
+        "14": {
+          "MAE": 8.921,
+          "RMSE": 14.073,
+          "WAPE": 0.1844,
+          "n": 666
+        }
+      },
+      "by_category": {
+        "A": {
+          "MAE": 19.776,
+          "RMSE": 24.37,
+          "WAPE": 0.1099,
+          "n": 1554
+        },
+        "D": {
+          "MAE": 12.383,
+          "RMSE": 16.546,
+          "WAPE": 0.1965,
+          "n": 1554
+        },
+        "E": {
+          "MAE": 6.804,
+          "RMSE": 8.474,
+          "WAPE": 0.2458,
+          "n": 1554
+        },
+        "F": {
+          "MAE": 3.159,
+          "RMSE": 4.11,
+          "WAPE": 0.3525,
+          "n": 1554
+        },
+        "G": {
+          "MAE": 2.609,
+          "RMSE": 3.239,
+          "WAPE": 0.4197,
+          "n": 1554
+        },
+        "Other": {
+          "MAE": 3.143,
+          "RMSE": 4.029,
+          "WAPE": 0.702,
+          "n": 1554
+        }
+      }
+    },
+    "test": {
+      "overall_1_14d": {
+        "MAE": 4.824,
+        "RMSE": 8.532,
+        "WAPE": 0.0816,
+        "n": 9408
+      },
+      "horizon_1_7d": {
+        "MAE": 4.619,
+        "RMSE": 8.373,
+        "WAPE": 0.0781,
+        "n": 4704
+      },
+      "by_horizon": {
+        "1": {
+          "MAE": 4.008,
+          "RMSE": 7.507,
+          "WAPE": 0.0678,
+          "n": 672
+        },
+        "2": {
+          "MAE": 4.383,
+          "RMSE": 8.183,
+          "WAPE": 0.0741,
+          "n": 672
+        },
+        "3": {
+          "MAE": 4.611,
+          "RMSE": 8.481,
+          "WAPE": 0.078,
+          "n": 672
+        },
+        "4": {
+          "MAE": 4.768,
+          "RMSE": 8.584,
+          "WAPE": 0.0806,
+          "n": 672
+        },
+        "5": {
+          "MAE": 4.803,
+          "RMSE": 8.572,
+          "WAPE": 0.0812,
+          "n": 672
+        },
+        "6": {
+          "MAE": 4.876,
+          "RMSE": 8.606,
+          "WAPE": 0.0825,
+          "n": 672
+        },
+        "7": {
+          "MAE": 4.881,
+          "RMSE": 8.621,
+          "WAPE": 0.0826,
+          "n": 672
+        },
+        "8": {
+          "MAE": 4.982,
+          "RMSE": 8.648,
+          "WAPE": 0.0843,
+          "n": 672
+        },
+        "9": {
+          "MAE": 4.958,
+          "RMSE": 8.631,
+          "WAPE": 0.0839,
+          "n": 672
+        },
+        "10": {
+          "MAE": 4.899,
+          "RMSE": 8.552,
+          "WAPE": 0.0829,
+          "n": 672
+        },
+        "11": {
+          "MAE": 5.03,
+          "RMSE": 8.689,
+          "WAPE": 0.0851,
+          "n": 672
+        },
+        "12": {
+          "MAE": 5.086,
+          "RMSE": 8.751,
+          "WAPE": 0.086,
+          "n": 672
+        },
+        "13": {
+          "MAE": 5.102,
+          "RMSE": 8.744,
+          "WAPE": 0.0863,
+          "n": 672
+        },
+        "14": {
+          "MAE": 5.143,
+          "RMSE": 8.796,
+          "WAPE": 0.087,
+          "n": 672
+        }
+      },
+      "by_category": {
+        "A": {
+          "MAE": 13.205,
+          "RMSE": 18.5,
+          "WAPE": 0.0692,
+          "n": 1568
+        },
+        "D": {
+          "MAE": 5.453,
+          "RMSE": 6.927,
+          "WAPE": 0.0588,
+          "n": 1568
+        },
+        "E": {
+          "MAE": 3.468,
+          "RMSE": 4.464,
+          "WAPE": 0.097,
+          "n": 1568
+        },
+        "F": {
+          "MAE": 2.136,
+          "RMSE": 2.672,
+          "WAPE": 0.1561,
+          "n": 1568
+        },
+        "G": {
+          "MAE": 1.634,
+          "RMSE": 2.085,
+          "WAPE": 0.1768,
+          "n": 1568
+        },
+        "Other": {
+          "MAE": 3.045,
+          "RMSE": 3.889,
+          "WAPE": 0.2424,
+          "n": 1568
+        }
+      }
+    }
+  },
+  "uncertainty": {
+    "method": "Empirical residual quantiles of validation errors, per (horizon group, room category)",
+    "nominal_coverage": 0.9,
+    "test_coverage": 0.931,
+    "mean_width_test": 10.68
+  },
+  "split": {
+    "first": "2015-08-19",
+    "train_end": "2017-01-20",
+    "val_end": "2017-05-11",
+    "test_end": "2017-08-31"
+  },
+  "rows": {
+    "train": 43218,
+    "validation": 9324,
+    "test": 9408
+  },
+  "selected_model": "HistGradientBoosting",
+  "selection_rule": "lowest validation WAPE, horizons 1-14, all categories",
+  "selected_beats_baseline_on_validation": true,
+  "selected_beats_baseline_on_test": true,
+  "search_log": [
+    {
+      "model": "Linear Regression",
+      "params": {},
+      "residual_target": false,
+      "val_WAPE": 0.0648
+    },
+    {
+      "model": "Linear Regression",
+      "params": {},
+      "residual_target": true,
+      "val_WAPE": 0.0649
+    },
+    {
+      "model": "Random Forest",
+      "params": {
+        "n_estimators": 200,
+        "min_samples_leaf": 5,
+        "max_features": 0.5
+      },
+      "residual_target": false,
+      "val_WAPE": 0.0572
+    },
+    {
+      "model": "Random Forest",
+      "params": {
+        "n_estimators": 200,
+        "min_samples_leaf": 5,
+        "max_features": 0.5
+      },
+      "residual_target": true,
+      "val_WAPE": 0.0633
+    },
+    {
+      "model": "Random Forest",
+      "params": {
+        "n_estimators": 200,
+        "min_samples_leaf": 20,
+        "max_features": 0.5
+      },
+      "residual_target": false,
+      "val_WAPE": 0.0574
+    },
+    {
+      "model": "Random Forest",
+      "params": {
+        "n_estimators": 200,
+        "min_samples_leaf": 20,
+        "max_features": 0.5
+      },
+      "residual_target": true,
+      "val_WAPE": 0.0635
+    },
+    {
+      "model": "HistGradientBoosting",
+      "params": {
+        "learning_rate": 0.05,
+        "max_iter": 300,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 40,
+        "l2_regularization": 1.0
+      },
+      "residual_target": false,
+      "val_WAPE": 0.0532
+    },
+    {
+      "model": "HistGradientBoosting",
+      "params": {
+        "learning_rate": 0.05,
+        "max_iter": 300,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 40,
+        "l2_regularization": 1.0
+      },
+      "residual_target": true,
+      "val_WAPE": 0.0629
+    },
+    {
+      "model": "HistGradientBoosting",
+      "params": {
+        "learning_rate": 0.05,
+        "max_iter": 300,
+        "max_depth": 4,
+        "min_samples_leaf": 40,
+        "l2_regularization": 1.0
+      },
+      "residual_target": false,
+      "val_WAPE": 0.0533
+    },
+    {
+      "model": "HistGradientBoosting",
+      "params": {
+        "learning_rate": 0.05,
+        "max_iter": 300,
+        "max_depth": 4,
+        "min_samples_leaf": 40,
+        "l2_regularization": 1.0
+      },
+      "residual_target": true,
+      "val_WAPE": 0.0622
+    }
+  ],
+  "feature_importance": [
+    {
+      "group": "On-the-books bookings (pickup)",
+      "features": [
+        "otb",
+        "otb_total",
+        "otb_base",
+        "otb_pace"
+      ],
+      "mae_increase": 53.959,
+      "share_of_total": 0.9363
+    },
+    {
+      "group": "Rolling averages & trend",
+      "features": [
+        "roll_mean_7",
+        "roll_mean_14",
+        "roll_mean_28",
+        "trend_7_28"
+      ],
+      "mae_increase": 0.991,
+      "share_of_total": 0.0172
+    },
+    {
+      "group": "Recent daily demand (lags)",
+      "features": [
+        "lag_0",
+        "lag_1",
+        "lag_2",
+        "lag_3",
+        "lag_4",
+        "lag_5",
+        "lag_6"
+      ],
+      "mae_increase": 0.656,
+      "share_of_total": 0.0114
+    },
+    {
+      "group": "Room category",
+      "features": [
+        "room_category"
+      ],
+      "mae_increase": 0.616,
+      "share_of_total": 0.0107
+    },
+    {
+      "group": "Forecast horizon",
+      "features": [
+        "horizon"
+      ],
+      "mae_increase": 0.512,
+      "share_of_total": 0.0089
+    },
+    {
+      "group": "Calendar (weekday, month, season)",
+      "features": [
+        "dow",
+        "is_weekend",
+        "month",
+        "quarter",
+        "season"
+      ],
+      "mae_increase": 0.458,
+      "share_of_total": 0.008
+    },
+    {
+      "group": "Same-weekday history",
+      "features": [
+        "base_same_dow",
+        "base_same_dow_prev"
+      ],
+      "mae_increase": 0.42,
+      "share_of_total": 0.0073
+    },
+    {
+      "group": "Holiday calendar",
+      "features": [
+        "is_holiday"
+      ],
+      "mae_increase": 0.015,
+      "share_of_total": 0.0003
+    },
+    {
+      "group": "Booking behaviour (cancel rate, lead time)",
+      "features": [
+        "cancel_rate_28",
+        "mean_lead_28"
+      ],
+      "mae_increase": 0.005,
+      "share_of_total": 0.0001
+    }
+  ]
+}

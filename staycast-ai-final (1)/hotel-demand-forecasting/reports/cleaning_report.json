@@ -1,0 +1,36 @@
+{
+  "raw_rows": 119390,
+  "exact_duplicates_dropped": 31994,
+  "invalid_rows_dropped": {
+    "zero_night_stay": 651,
+    "zero_guests": 106,
+    "negative_adr": 1
+  },
+  "flags_not_dropped": {
+    "cancel_date_before_booking_date": 0,
+    "cancel_date_after_arrival": 0,
+    "adr_zero_rows": 1052,
+    "adr_above_1000": 1,
+    "reserved_ne_assigned": 12660,
+    "missing_country_UNK": 442
+  },
+  "clean_rows": 86638,
+  "room_category_bookings": {
+    "A": 56009,
+    "D": 17294,
+    "E": 6000,
+    "F": 2805,
+    "Other": 2495,
+    "G": 2035
+  },
+  "decisions": [
+    "Raw file is never modified; processed data is written separately.",
+    "Exact duplicates (all 32 columns) dropped, first copy kept.",
+    "Rows with zero nights, zero guests or negative ADR dropped as invalid.",
+    "children NA -> 0; country 'NULL' -> 'UNK'; agent/company 'NULL' -> NaN (not used as features).",
+    "Cancelled / no-show rows are KEPT: they matter for on-the-books features and cancellation analysis.",
+    "Room category = RESERVED room type (assigned type is only known at check-in).",
+    "Rare room types B, C, H, L, P pooled into 'Other'.",
+    "ADR outliers (max 5400) are not used by the model; they are only winsorised for EDA charts."
+  ]
+}

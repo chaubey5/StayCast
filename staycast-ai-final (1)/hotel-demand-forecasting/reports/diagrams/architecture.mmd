@@ -1,0 +1,16 @@
+flowchart LR
+  RAW[("data/raw<br/>hotel_bookings.csv<br/>(never modified)")] --> PRE["src/preprocessing.py<br/>clean + dedupe + validate"]
+  PRE --> CLEAN[("data/processed<br/>bookings_clean.csv.gz")]
+  CLEAN --> FB["src/feature_engineering.py<br/>FeatureBuilder<br/>(lags, rolling, on-the-books)"]
+  FB --> TRAIN["src/train.py<br/>chronological split<br/>baseline + LR / RF / HGB"]
+  TRAIN --> ART[("models/best_model.joblib<br/>model + intervals + stats")]
+  TRAIN --> MET[("reports/metrics.json<br/>figures")]
+  ART --> PRED["src/predict.py<br/>Forecaster (same FeatureBuilder)"]
+  FB --> PRED
+  PRED --> API["FastAPI backend<br/>backend/api.py"]
+  MET --> API
+  API --> UI["Streamlit + Plotly dashboard<br/>frontend/app.py (7 screens)"]
+  classDef store fill:#EFE8D8,stroke:#B8985A,color:#0B1F3A;
+  classDef step fill:#0B1F3A,stroke:#0B1F3A,color:#F6F1E7;
+  class RAW,CLEAN,ART,MET store;
+  class PRE,FB,TRAIN,PRED,API,UI step;
